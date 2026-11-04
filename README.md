@@ -106,4 +106,6 @@ This project is an academic cybersecurity simulation. It must not be used to imp
 
 ## Author
 **Christelle Janine M. Lurenana**
+
 Developed as part of an academic cybersecurity project.
+
