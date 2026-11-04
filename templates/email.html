@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Mailbox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="login-container email-container">
+
+        <h2>Northbridge University Mailbox</h2>
+
+        <hr>
+
+        <p class="email-label">INBOX</p>
+
+        <div class="email-header">
+            <h3>Subject: Important — Student Account Verification</h3>
+
+            <p><strong>From:</strong> IT Support (Simulation)</p>
+            <p><strong>To:</strong> student@northbridge.edu</p>
+            <p><strong>Date:</strong> November 4, 2026</p>
+        </div>
+
+        <hr>
+
+        <div class="email-body">
+            <p>Dear Student,</p>
+
+            <p>
+                Our university IT department is conducting a
+                student account verification process.
+            </p>
+
+            <p>
+                Please review your account through the
+                verification portal provided below.
+            </p>
+
+            <p>
+                Failure to complete the verification process
+                may result in temporary restrictions to your
+                student account.
+            </p>
+
+            <p>
+                <a href="{{ url_for('login') }}">
+                    Open Student Verification Portal
+                </a>
+            </p>
+
+            <p>Regards,<br>Northbridge University IT Support</p>
+        </div>
+
+        <hr>
+
+        <p class="notice">
+            Controlled cybersecurity awareness simulation.
+        </p>
+
+    </div>
+
+</body>
+</html>

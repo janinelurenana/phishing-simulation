@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Phishing Awareness</h1>
+
+        <h2>You encountered a phishing simulation.</h2>
+
+        <p>
+            You submitted your login information to a simulated
+            university website.
+        </p>
+
+        <div class="credential-box">
+            <h3>Captured Dummy Credentials</h3>
+
+            <p>
+                <strong>Username:</strong>
+                {{ username }}
+           </p>
+
+           <p>
+               <strong>Password:</strong>
+               {{ password }}
+           </p>
+       </div>
+
+        <h3>What happened?</h3>
+
+        <p>
+            The simulated website used a university account verification
+            message to encourage you to submit your credentials.
+        </p>
+
+        <h3>Warning signs</h3>
+
+        <ul>
+            <li>An unexpected account verification request</li>
+            <li>Pressure to act before a deadline</li>
+            <li>A login page reached through an email link</li>
+        </ul>
+
+        <p>
+            Always verify the sender and destination URL before
+            entering credentials.
+        </p>
+
+        <a href="/">Return to the simulation</a>
+    </div>
+
+</body>
+</html>

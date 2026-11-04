@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 35px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #1e3a8a;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    color: #64748b;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 24px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+.notice {
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+.email-container {
+    max-width: 650px;
+}
+
+.email-label {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    color: #64748b;
+}
+
+.email-header {
+    margin: 20px 0;
+}
+
+.email-header p,
+.email-body p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.email-body {
+    padding: 10px 0;
+}
+
+.email-body a {
+    display: inline-block;
+    margin: 12px 0;
+    color: #1e40af;
+    font-weight: bold;
+}
